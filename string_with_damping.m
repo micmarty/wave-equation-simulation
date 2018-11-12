@@ -1,7 +1,7 @@
 mu=0.01; tau=100; L=1; M=100; N=2000; x=linspace(0,L,M)';
 v=sqrt(tau/mu); dx=x(2)-x(1); dt=dx/v; p=(v*dt/dx)^2;
 
-b=0.1;
+b=0.5;
 beta=b/2/mu;
 q=1+beta*dt;
 u=1-beta*dt;
